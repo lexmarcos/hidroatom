@@ -1,0 +1,12 @@
+O processo de criação e confecção de uma ideia exige que se pense nos objetivos finais,
+ou seja, o propósito da sua criação. Em nosso projeto, tínhamos a ideia de desenvolver
+um interface visual capaz de interagir com dois tipos de usuários: Alunos e professores.
+Nós estudamos e revemos as possibilidades e concluímos que essa interação alternativa ficaria
+fora de questão, uma vez que o aplicativo em si já demanda muito trabalho. Acreditamos que em 
+todos os projetos existem as ideias que são descartadas, e que esse processo faz parte de um processo 
+de aprendizagem no qual em futuros trabalhos e projetos irá nos auxiliar. A maioria das funções foi 
+mantida ou apenas levemente modificada com exceção da interface de login. Outra razão que optamos pela 
+exclusão dessa ideia foi o fato de que não seria algo viável, uma vez que o nosso aplicativo iria exigir 
+uma interface totalmente reformulada para os professores, com novas funções e aspectos para um pequeno 
+número de usuários(professores). Os softwares utilizados até agora foram: Android Studio, Photoshop para
+as edições de imagem e o Star UML para a organização dos diagramas de classe.
