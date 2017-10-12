@@ -1,0 +1,36 @@
+.demo-card-wide.mdl-card {
+    width: 512px;
+}
+
+.demo-card-wide>.mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../img/hidrogenio.jpg') center / cover;
+}
+
+.demo-card-wide>.mdl-card__menu {
+    color: #fff;
+}
+
+.demo-card-wide.mdl-card {
+    width: -webkit-fill-available;
+    margin: 10px;
+}
+
+#elemento2 {
+    background: url('../img/litio.jpg') center / cover;
+}
+
+.mdl-layout__header .mdl-layout__drawer-button {
+    background: none;
+}
+
+.mdl-layout__header-row {
+    background-image: linear-gradient( 135deg, #bc546a 10%, #FD6585 100%);
+}
+
+.mdl-button.mdl-button--colored {
+    background: -webkit-linear-gradient(135deg, #bc546a, #B3315F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

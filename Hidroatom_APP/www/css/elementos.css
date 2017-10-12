@@ -1,0 +1,35 @@
+.demo-card-image.mdl-card {
+    width: 360px;
+    height: 280px;
+    background: url('../img/hidrogenio.jpg') center / cover;
+}
+
+.demo-card-image>.mdl-card__actions {
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.demo-card-image__filename {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mdl-card {
+    border-radius: 0px;
+}
+
+#card2 {
+    border-radius: 6px;
+    width: 350px;
+    height: 200px;
+    margin: 5px;
+    margin-top: 10px;
+    text-align: center;
+    text-align-last: center;
+}
+
+.mdl-card__title{
+	align-self: center;
+}
