@@ -1,9 +1,26 @@
 .demo-card-image.mdl-card {
-    width: 360px;
+    width: 100%;
     height: 280px;
     background: url('../img/hidrogenio.jpg') center / cover;
 }
 
+#litioImg {
+    width: 100%;
+    height: 280px;
+    background: url('../img/litio.jpg') center / cover;
+}
+
+#sodioImg {
+    width: 100%;
+    height: 280px;
+    background: url('../img/sodio.jpg') center / cover;
+}
+
+#potassioImg {
+    width: 100%;
+    height: 280px;
+    background: url('../img/Potassium.JPG') center / cover;
+}
 .demo-card-image>.mdl-card__actions {
     height: 52px;
     padding: 16px;
@@ -20,16 +37,56 @@
     border-radius: 0px;
 }
 
-#card2 {
-    border-radius: 6px;
-    width: 350px;
-    height: 200px;
-    margin: 5px;
-    margin-top: 10px;
-    text-align: center;
-    text-align-last: center;
+#spectro {
+    background: url('../img/Hydrogen_Spectra.jpg') center / cover;
+    border-radius: 0px 0px 10px 10px;
 }
 
-.mdl-card__title{
-	align-self: center;
+#spectro_litio {
+    background: url('../img/litio_spectra.png') center / cover;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+#spectro_sodio {
+    background: url('../img/Sodium_Spectra.jpg') center / cover;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#spectro_potassio {
+    background: url('../img/Potassium_Spectrum.jpg') center / cover;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#card2 {
+    border-radius: 6px;
+    width: calc(100% - 12px);
+    height: auto;
+    margin: 6px;
+    margin-top: 10px;
+    text-align: -webkit-center;
+}
+
+.mdl-card__title {
+    align-self: center;
+}
+
+.section1 {
+    width: 50%;
+}
+
+h2.mdl-card__title-text {
+    font-size: xx-large;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+.mdl-layout__header-row {
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+}
+
+.mdl-layout__header .mdl-layout__drawer-button {
+    background: none;
 }

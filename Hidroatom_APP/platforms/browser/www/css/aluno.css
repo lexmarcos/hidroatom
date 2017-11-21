@@ -1,0 +1,70 @@
+.demo-card-image>.mdl-card__actions {
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.demo-card-image__filename {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mdl-layout__header-row {
+    background-image: linear-gradient( 135deg, #28C76F 10%, #71dda2 100%);
+}
+
+.mdl-layout__header .mdl-layout__drawer-button {
+    background: none;
+}
+
+.mainDiv {
+    color: white;
+    text-shadow: 1px 1px 1px #a8a8a8;
+}
+
+.back {
+    width: 100%;
+}
+
+p {
+    max-width: 75%;
+}
+
+img {
+    position: absolute;
+}
+
+.img1 {
+    width: 412px;
+    height: 550px;
+}
+
+.img2 {
+    z-index: 3;
+    width: 200px;
+    position: relative;
+}
+
+.img3{
+    margin-top: 30px;
+    width: 200px;
+    position: relative;
+}
+
+.text{
+    margin-top: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px #a8a8a8;
+
+}
+
+hr{
+    width: 50%;
+    background-color: white;
+    height: 1px;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #30c974 0%, #38f9d7 100%);
+}

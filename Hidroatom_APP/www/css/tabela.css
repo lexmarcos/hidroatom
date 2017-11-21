@@ -21,16 +21,52 @@
     background: url('../img/litio.jpg') center / cover;
 }
 
+#elemento3 {
+    background: url('../img/sodio.jpg') center / cover;
+}
+
+#elemento4 {
+    background: url('../img/Potassium.JPG') center / cover;
+}
+
+#elemento5 {
+    background: url('../img/rubidio.JPG') center / cover;
+}
+
+#elemento6 {
+    background: url('../img/Cesio.jpg') center / cover;
+}
+
+#elemento7 {
+    background: url('../img/francio.jpg') center / cover;
+}
+
+
 .mdl-layout__header .mdl-layout__drawer-button {
     background: none;
 }
 
-.mdl-layout__header-row {
-    background-image: linear-gradient( 135deg, #bc546a 10%, #FD6585 100%);
+.mdl-layout__header-row{
+    background-color: #bc546a;
+}
+.mdl-layout__tab-bar{
+    background-color: #bc546a;
 }
 
 .mdl-button.mdl-button--colored {
-    background: -webkit-linear-gradient(135deg, #bc546a, #B3315F);
+    background-color: #bc546a;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-left-button{
+    background-color: #bc546a;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button.is-active{
+    background-color: #bc546a;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button{
+    background-color: #bc546a;
 }
