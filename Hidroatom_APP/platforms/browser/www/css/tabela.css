@@ -6,6 +6,8 @@
     color: #fff;
     height: 176px;
     background: url('../img/hidrogenio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
 }
 
 .demo-card-wide>.mdl-card__menu {
@@ -19,26 +21,38 @@
 
 #elemento2 {
     background: url('../img/litio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
 }
 
 #elemento3 {
     background: url('../img/sodio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
 }
 
 #elemento4 {
     background: url('../img/Potassium.JPG') center / cover;
+    background-size: cover;
+    background-attachment: local;
 }
 
 #elemento5 {
     background: url('../img/rubidio.JPG') center / cover;
+    background-size: cover;
+    background-attachment: local;
 }
 
 #elemento6 {
     background: url('../img/Cesio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
 }
 
 #elemento7 {
     background: url('../img/francio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
 }
 
 
@@ -46,10 +60,11 @@
     background: none;
 }
 
-.mdl-layout__header-row{
+.mdl-layout__header-row {
     background-color: #bc546a;
 }
-.mdl-layout__tab-bar{
+
+.mdl-layout__tab-bar {
     background-color: #bc546a;
 }
 
@@ -59,14 +74,30 @@
     -webkit-text-fill-color: transparent;
 }
 
-.mdl-layout__tab-bar-button.mdl-layout__tab-bar-left-button{
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-left-button {
     background-color: #bc546a;
 }
 
-.mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button.is-active{
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button.is-active {
+    background-color: #bc546a;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button {
     background-color: #bc546a;
 }
 
 .mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button{
-    background-color: #bc546a;
+    background: none;
+}
+
+i.material-icons {
+    display: none;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button.is-active {
+    background: none;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-left-button.is-active {
+    background: none;
 }

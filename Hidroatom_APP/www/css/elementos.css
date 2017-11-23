@@ -2,24 +2,32 @@
     width: 100%;
     height: 280px;
     background: url('../img/hidrogenio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
 }
 
 #litioImg {
     width: 100%;
     height: 280px;
     background: url('../img/litio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
 }
 
 #sodioImg {
     width: 100%;
     height: 280px;
     background: url('../img/sodio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
 }
 
 #potassioImg {
     width: 100%;
     height: 280px;
     background: url('../img/Potassium.JPG') center / cover;
+    background-size: cover;
+    background-attachment: local;
 }
 .demo-card-image>.mdl-card__actions {
     height: 52px;
@@ -89,4 +97,9 @@ body {
 
 .mdl-layout__header .mdl-layout__drawer-button {
     background: none;
+}
+
+.mdl-card__title.mdl-card--expand {
+    background-size: cover;
+    background-attachment: local;
 }

@@ -9,27 +9,32 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/tabela.css">
+    <link rel="stylesheet" type="text/css" href="css/icon_tabela.css">
 </head>
 
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header">
+        <header class="mdl-layout__header is-casting-shadow">
+            <div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button"><img class="material-icons" src="icons/ic_menu_white_24dp.png" width="24"></div>
             <div class="mdl-layout__header-row">
                 <!-- Title -->
-                <span class="mdl-layout-title">Title</span>
+                <span class="mdl-layout-title">Hidroatom</span>
             </div>
             <!-- Tabs -->
             <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-                <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Família 1A</a>
-                <a href="#scroll-tab-2" class="mdl-layout__tab">Família 2A</a>
-                <a href="#scroll-tab-3" class="mdl-layout__tab">Família B</a>
-                <a href="#scroll-tab-4" class="mdl-layout__tab">Família 3A</a>
-                <a href="#scroll-tab-5" class="mdl-layout__tab">Família 4A</a>
-                <a href="#scroll-tab-6" class="mdl-layout__tab">Família 5A</a>
-                <a href="#scroll-tab-7" class="mdl-layout__tab">Família 6A</a>
-                <a href="#scroll-tab-8" class="mdl-layout__tab">Família 7A</a>
-                <a href="#scroll-tab-9" class="mdl-layout__tab">Família 0/8A</a>
-            </div>
+                <div class="mdl-layout__tab-bar-button mdl-layout__tab-bar-left-button is-active"><i class="material-icons"></i></div>
+                <div class="mdl-layout__tab-bar-button mdl-layout__tab-bar-right-button is-active"><i class="material-icons"></i></div>
+                <div class="mdl-layout__tab-bar-button mdl-layout__tab-bar-right-button is-active"><i class="material-icons"></i></div>
+                    <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Família 1A</a>
+                    <a href="#scroll-tab-2" class="mdl-layout__tab">Família 2A</a>
+                    <a href="#scroll-tab-3" class="mdl-layout__tab">Família B</a>
+                    <a href="#scroll-tab-4" class="mdl-layout__tab">Família 3A</a>
+                    <a href="#scroll-tab-5" class="mdl-layout__tab">Família 4A</a>
+                    <a href="#scroll-tab-6" class="mdl-layout__tab">Família 5A</a>
+                    <a href="#scroll-tab-7" class="mdl-layout__tab">Família 6A</a>
+                    <a href="#scroll-tab-8" class="mdl-layout__tab">Família 7A</a>
+                    <a href="#scroll-tab-9" class="mdl-layout__tab">Família 0/8A</a>
+                </div>
         </header>
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">Menu</span>
@@ -166,8 +171,8 @@
                 </div>
             </section>
         </main>
-    </div>
-    <script type="text/javascript" src="MDL/material.min.js"></script>
+        </div>
+        <script type="text/javascript" src="MDL/material.min.js"></script>
 </body>
 
 </html>
