@@ -60,14 +60,6 @@
     background: none;
 }
 
-.mdl-layout__header-row {
-    background-color: #bc546a;
-}
-
-.mdl-layout__tab-bar {
-    background-color: #bc546a;
-}
-
 .mdl-button.mdl-button--colored {
     background-color: #bc546a;
     -webkit-background-clip: text;
@@ -96,8 +88,19 @@ i.material-icons {
 
 .mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button.is-active {
     background: none;
+    display: none;
 }
 
 .mdl-layout__tab-bar-button.mdl-layout__tab-bar-left-button.is-active {
     background: none;
+    display: none;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-left-button {
+    display: none;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button {
+    background: none;
+    display: none;
 }

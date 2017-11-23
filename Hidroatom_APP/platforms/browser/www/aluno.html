@@ -14,16 +14,24 @@
 </head>
 
 <body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-       <header class="mdl-layout__header is-casting-shadow"><div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button"><img class="material-icons" src="icons/ic_menu_white_24dp.png" width="24"></div>
-            <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <span class="mdl-layout-title">Hidroatom</span>
-                <!-- Add spacer, to align navigation to the right -->
-            </div>
+    <!-- Uses a transparent header that draws on top of the layout's background -->
+    <style>
+    .demo-layout-transparent {
+        background: url('../assets/demos/transparent.jpg') center / cover;
+    }
+
+    .demo-layout-transparent .mdl-layout__header,
+    .demo-layout-transparent .mdl-layout__drawer-button {
+        /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+        color: white;
+    }
+    </style>
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+        <header class="mdl-layout__header mdl-layout__header--transparent">
         </header>
         <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">Menu</span>
+            <span class="mdl-layout-title">Title</span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" href="tabela.html">Tabela Periódica</a>
                 <a class="mdl-navigation__link" href="">Materiais</a>
@@ -45,10 +53,10 @@
                 </div>
                 <section>
                     <center>
-                    <img class="img3 animated bounceInRight" src="img/Student-aluno.png" ">
+                        <img class="img3 animated bounceInRight" src="img/Student-aluno.png" ">
                     </center>
-                    <center class="animated fadeInUp">
-                        <div class="text">
+                    <center class="animated fadeInUp ">
+                        <div class="text ">
                             <h4>O App que ajuda você</h4>
                             <hr>
                             <p>Totalmente compilado para você se sentir a vontade de usar

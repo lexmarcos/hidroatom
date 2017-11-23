@@ -5,27 +5,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="MDL/material.min.css">
+    <link rel="stylesheet" type="text/css" href="../MDL/material.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" type="text/css" href="css/elementos.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <link rel="stylesheet" type="text/css" href="css/icon_tabela.css">
+    <link rel="stylesheet" type="text/css" href="../css/elementos.css">
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
+    <link rel="stylesheet" type="text/css" href="../css/icon_tabela.css">
 </head>
 
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header is-casting-shadow"><div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button"><img class="material-icons" src="icons/ic_menu_white_24dp.png" width="24"></div>
+        <header class="mdl-layout__header is-casting-shadow"><div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button"><img class="material-icons" src="../icons/ic_menu_white_24dp.png" width="24"></div>
             <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <span class="mdl-layout-title">Hidroatom</span>
-                <!-- Add spacer, to align navigation to the right -->
+                                <!-- Titulo -->
+                <span class="mdl-layout-title">HidroAtom</span>
             </div>
         </header>
+        <!--Menu de push-->
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">Menu</span>
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="aluno.html">Início</a>
-                <a class="mdl-navigation__link" href="tabela.html">Tabela Periódica</a>
+                <a class="mdl-navigation__link" href="../aluno.html">Início</a>
+                <a class="mdl-navigation__link" href="../tabela.html">Tabela Periódica</a>
                 <a class="mdl-navigation__link" href="">Materiais</a>
                 <a class="mdl-navigation__link" href="">Atividades</a>
                 <a class="mdl-navigation__link" href="">Provas</a>
@@ -34,15 +34,19 @@
         <main class="mdl-layout__content">
             <div class="page-content">
                 <div class="mainDiv">
-                    <div id="sodioImg" class="demo-card-image mdl-card mdl-shadow--2dp animated slideInLeft">
+                    <!--Imagem do elemento-->
+                    <div class="demo-card-image mdl-card mdl-shadow--2dp animated slideInLeft">
                         <div class="mdl-card__title mdl-card--expand"></div>
+                        <!--Nome do elemento-->
                         <div class="mdl-card__actions">
-                            <span class="demo-card-image__filename">Sódio</span>
+                            <span class="demo-card-image__filename">Hidrogênio</span>
                         </div>
                     </div>
-                    <div id="spectro_sodio" class="mdl-shadow--2dp animated slideInLeft">
+                    <!--Spectro do elemento-->
+                    <div id="spectro" class="mdl-shadow--2dp animated slideInLeft">
                         <div class="mdl-card__title mdl-card--expand"></div>
                     </div>
+                    <!--Card de informações gerais-->
                     <div id="card2" class="mdl-card mdl-shadow--2dp animated slideInUp">
                         <div class="mdl-card__title">
                             <h2 class="mdl-card__title-text">Informações Gerais</h2>
@@ -52,19 +56,19 @@
                                 <table>
                                     <tr>
                                         <td>Nome:</td>
-                                        <td>Sódio</td>
+                                        <td>Hidrogênio</td>
                                     </tr>
                                     <tr>
                                         <td>Número:</td>
-                                        <td>11</td>
+                                        <td>1</td>
                                     </tr>
                                     <tr>
                                         <td>Símbolo:</td>
-                                        <td>Na</td>
+                                        <td>H</td>
                                     </tr>
                                     <tr>
                                         <td>Série química:</td>
-                                        <td>Metais Alcalinos</td>
+                                        <td>Não-metal</td>
                                     </tr>
                                     <tr>
                                         <td>Grupo</td>
@@ -72,7 +76,7 @@
                                     </tr>
                                     <tr>
                                         <td>Período</td>
-                                        <td>3</td>
+                                        <td>1</td>
                                     </tr>
                                     <tr>
                                         <td>Bloco</td>
@@ -82,96 +86,51 @@
                             </div>
                         </div>
                     </div>
+                    <!--Card de Propriedades Físicas-->
                     <div id="card2" class="mdl-card mdl-shadow--2dp animated slideInUp">
                         <div class="mdl-card__title">
-                            <h2 class="mdl-card__title-text">Propriedades Físicas</h2>
-                        </div>
-                        <div id="card3" class="mdl-card__supporting-text">
-                                                        <div>
-                                <table>
-                                    <tr>
-                                        <td>Estado da matéria:</td>
-                                        <td>Sólido</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ponto de fusão:</td>
-                                        <td>370,95 K</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ponto de ebulição:</td>
-                                        <td>    1156 K</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Entalpia de fusão:</td>
-                                        <td>2,598 kJ/mol</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Entalpia de vaporização:</td>
-                                        <td>96,96 kJ/mol</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Pressão de vapor:</td>
-                                        <td>1 Pa a 554 K</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Velocidade do som:</td>
-                                        <td>3200 m/s a 20 °C</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Classe magnética:</td>
-                                        <td>paramagnético</td>
-                                    </tr>
-                                     <tr>
-                                        <td>Susceptibilidade magnética:</td>
-                                        <td>8,5x10-6</td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="card2" class="mdl-card mdl-shadow--2dp animated slideInUp">
-                        <div class="mdl-card__title">
-                            <h2 class="mdl-card__title-text">Propriedades Atómicas</h2>
+                            <h2 class="mdl-card__title-text">Propriedades físicas</h2>
                         </div>
                         <div id="card3" class="mdl-card__supporting-text">
                             <div>
                                 <table>
                                     <tr>
                                         <td>Massa atômica:</td>
-                                        <td>22,98976928(2) u</td>
+                                        <td>1,00794(7) u</td>
                                     </tr>
                                     <tr>
                                         <td>Raio atómico (calculado):</td>
-                                        <td>186 pm</td>
+                                        <td>25(53) pm</td>
                                     </tr>
                                     <tr>
                                         <td>Raio covalente:</td>
-                                        <td>154 pm</td>
+                                        <td>37 pm</td>
                                     </tr>
                                     <tr>
                                         <td>Raio de Van der Waals:</td>
-                                        <td>227 pm</td>
+                                        <td>120 pm</td>
                                     </tr>
                                     <tr>
                                         <td>Configuração electrônica:</td>
-                                        <td>[Ne] 3s1</td>
+                                        <td>1s1</td>
                                     </tr>
                                     <tr>
                                         <td>Elétrons (por nível de energia):</td>
-                                        <td>2, 8, 1</td>
+                                        <td>1</td>
                                     </tr>
                                     <tr>
-                                        <td>Estado(s) de oxidação:</td>
-                                        <td>+1 (base forte)</td>
+                                        <td>stado(s) de oxidação:</td>
+                                        <td>1 (anfótero)</td>
                                     </tr>
                                     <tr>
                                         <td>Estrutura cristalina:</td>
-                                        <td>cúbico de corpo centrado</td>
+                                        <td>hexagonal</td>
                                     </tr>
                                 </table>
                             </div>
                         </div>
                     </div>
+                    <!--Card de informações diversas-->
                     <div id="card2" class="mdl-card mdl-shadow--2dp animated slideInUp">
                         <div class="mdl-card__title">
                             <h2 class="mdl-card__title-text">Diversos</h2>
@@ -180,28 +139,24 @@
                             <div>
                                 <table>
                                     <tr>
-                                        <td>letronegatividade (Pauling):</td>
-                                        <td>0,93</td>
+                                        <td>Eletronegatividade (Pauling):</td>
+                                        <td>2,2</td>
                                     </tr>
                                     <tr>
                                         <td>Calor específico:</td>
-                                        <td>1230 J/(kg·K)</td>
+                                        <td>14304 J/(kg·K)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Condutividade elétrica:</td>
+                                        <td>106 S/m</td>
                                     </tr>
                                     <tr>
                                         <td>Condutividade térmica:</td>
-                                        <td>141 W/(m·K)</td>
+                                        <td>0,1815 W/(m·K)</td>
                                     </tr>
                                     <tr>
                                         <td>1º Potencial de ionização:</td>
-                                        <td>495,8 kJ/mol</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2º Potencial de ionização:</td>
-                                        <td>4562 kJ/mol</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3º Potencial de ionização:</td>
-                                        <td>6910 kJ/mol</td>
+                                        <td>1312 kJ/mol</td>
                                     </tr>
                                 </table>
                             </div>
@@ -211,7 +166,7 @@
             </div>
         </main>
     </div>
-    <script type="text/javascript " src="MDL/material.min.js "></script>
+    <script type="text/javascript " src="../MDL/material.min.js "></script>
 </body>
 
 </html>
