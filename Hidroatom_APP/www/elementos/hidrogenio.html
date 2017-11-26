@@ -14,9 +14,10 @@
 
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header is-casting-shadow"><div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button"><img class="material-icons" src="../icons/ic_menu_white_24dp.png" width="24"></div>
+        <header class="mdl-layout__header is-casting-shadow">
+            <div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button"><img class="material-icons" src="../icons/ic_menu_white_24dp.png" width="24"></div>
             <div class="mdl-layout__header-row">
-                                <!-- Titulo -->
+                <!-- Titulo -->
                 <span class="mdl-layout-title">HidroAtom</span>
             </div>
         </header>
@@ -112,7 +113,18 @@
                                     </tr>
                                     <tr>
                                         <td>Configuração electrônica:</td>
-                                        <td>1s1</td>
+                                        <td>1s1
+                                            <a id="dialogView">Confira a imagem</a>
+                                            <dialog id="dialog1" class="mdl-dialog">
+                                                <h3 class="mdl-dialog__title">Configuração eletrônica:</h3>
+                                                <div class="mdl-dialog__content">
+                                                    <img src="../img/elementos/config eletro/Eletro_Rubidium.svg" width="240">
+                                                </div>
+                                                <div class="mdl-dialog__actions">
+                                                    <button type="button" class="mdl-button">Fechar</button>
+                                                </div>
+                                            </dialog>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>Elétrons (por nível de energia):</td>
@@ -166,6 +178,24 @@
             </div>
         </main>
     </div>
+    <script type="text/javascript">
+    (function() {
+        'use strict';
+        var dialogButton = document.querySelector('#dialogView');
+        var dialog = document.querySelector('#dialog1');
+        if (!dialog.showModal) {
+            dialogPolyfill.registerDialog(dialog);
+        }
+        dialogButton.addEventListener('click', function() {
+            dialog.showModal();
+        });
+        dialog.querySelector('button:not([disabled])')
+            .addEventListener('click', function() {
+                dialog.close();
+            });
+    }());
+    </script>
+    <script type="text/javascript" src="dialog-polyfill-master/dialog-polyfill.js"></script>
     <script type="text/javascript " src="../MDL/material.min.js "></script>
 </body>
 

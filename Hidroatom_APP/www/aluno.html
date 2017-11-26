@@ -11,27 +11,18 @@
     <link rel="stylesheet" type="text/css" href="css/aluno.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/icon.css">
+    <script type="text/javascript">
+    if (cordova.platformId == 'android') {
+        StatusBar.backgroundColorByHexString("#84fab0");
+    }
+    </script>
 </head>
 
 <body>
-    <!-- Uses a transparent header that draws on top of the layout's background -->
-    <style>
-    .demo-layout-transparent {
-        background: url('../assets/demos/transparent.jpg') center / cover;
-    }
-
-    .demo-layout-transparent .mdl-layout__header,
-    .demo-layout-transparent .mdl-layout__drawer-button {
-        /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-        color: white;
-    }
-    </style>
     <div class="demo-layout-transparent mdl-layout mdl-js-layout">
         <header class="mdl-layout__header mdl-layout__header--transparent">
         </header>
         <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">Title</span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" href="tabela.html">Tabela Periódica</a>
                 <a class="mdl-navigation__link" href="">Materiais</a>
@@ -39,6 +30,7 @@
                 <a class="mdl-navigation__link" href="provas.html">Provas</a>
             </nav>
         </div>
+        <div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button"><img class="material-icons" src="icons/ic_menu_white_24dp.png" width="24"></div>
         <main class="mdl-layout__content">
             <div class="page-content">
                 <center>

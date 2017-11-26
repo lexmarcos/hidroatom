@@ -9,12 +9,12 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <plugin name="cordova-plugin-statusbar" spec="~2.2.3" />
     <platform name="android">
-        <icon src="platforms/browser/res/icon/android/icon-36-ldpi.png" density="ldpi" />
-        <icon src="platforms/browser/res/icon/android/icon-48-mdpi.png" density="mdpi" />
-        <icon src="platforms/browser/res/icon/android/icon-72-hdpi.png" density="hdpi" />
-        <icon src="platforms/browser/res/icon/android/icon-96-xhdpi.png" density="xhdpi" />
+        <icon density="ldpi" src="platforms/browser/res/icon/android/icon-36-ldpi.png" />
+        <icon density="mdpi" src="platforms/browser/res/icon/android/icon-48-mdpi.png" />
+        <icon density="hdpi" src="platforms/browser/res/icon/android/icon-72-hdpi.png" />
+        <icon density="xhdpi" src="platforms/browser/res/icon/android/icon-96-xhdpi.png" />
     </platform>
     <icon src="platforms/browser/res/icon/android/icon-96-xhdpi.png" />
+    <plugin name="cordova-plugin-statusbar" spec="~2.2.3" />
 </widget>

@@ -6,7 +6,7 @@
 .demo-card-image.mdl-card {
     width: 100%;
     height: 280px;
-    background: url('../img/hidrogenio.jpg') center / cover;
+    background: url('../img/elementos/hidrogenio.jpg') center / cover;
     background-size: cover;
     background-attachment: local;
 }
@@ -14,7 +14,7 @@
 #litioImg {
     width: 100%;
     height: 280px;
-    background: url('../img/litio.jpg') center / cover;
+    background: url('../img/elementos/litio.jpg') center / cover;
     background-size: cover;
     background-attachment: local;
 }
@@ -22,7 +22,7 @@
 #sodioImg {
     width: 100%;
     height: 280px;
-    background: url('../img/sodio.jpg') center / cover;
+    background: url('../img/elementos/sodio.jpg') center / cover;
     background-size: cover;
     background-attachment: local;
 }
@@ -30,7 +30,31 @@
 #potassioImg {
     width: 100%;
     height: 280px;
-    background: url('../img/Potassium.JPG') center / cover;
+    background: url('../img/elementos/Potassium.JPG') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#rubidioImg {
+    width: 100%;
+    height: 280px;
+    background: url('../img/elementos/rubidio.JPG') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#cesioImg {
+    width: 100%;
+    height: 280px;
+    background: url('../img/elementos/Cesio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#francioImg {
+    width: 100%;
+    height: 280px;
+    background: url('../img/elementos/francio.jpg') center / cover;
     background-size: cover;
     background-attachment: local;
 }
@@ -40,7 +64,7 @@
 #berilioImg {
     width: 100%;
     height: 280px;
-    background: url('../img/berilio.JPG') center / cover;
+    background: url('../img/elementos/berilio.JPG') center / cover;
     background-size: cover;
     background-attachment: local;
 }
@@ -48,7 +72,7 @@
 #magnesioImg {
     width: 100%;
     height: 280px;
-    background: url('../img/Magnesio.JPG') center / cover;
+    background: url('../img/elementos/Magnesio.JPG') center / cover;
     background-size: cover;
     background-attachment: local;
 }
@@ -56,7 +80,7 @@
 #calcioImg {
     width: 100%;
     height: 280px;
-    background: url('../img/Calcio.JPG') center / cover;
+    background: url('../img/elementos/Calcio.JPG') center / cover;
     background-size: cover;
     background-attachment: local;
 }
@@ -64,7 +88,7 @@
 #estroncioImg {
     width: 100%;
     height: 280px;
-    background: url('../img/Estroncio.JPG') center / cover;
+    background: url('../img/elementos/Estroncio.JPG') center / cover;
     background-size: cover;
     background-attachment: local;
 }
@@ -73,7 +97,7 @@
 #barioImg {
     width: 100%;
     height: 280px;
-    background: url('../img/Bario.JPG') center / cover;
+    background: url('../img/elementos/Bario.JPG') center / cover;
     background-size: cover;
     background-attachment: local;
 }
@@ -81,7 +105,7 @@
 #radioImg {
     width: 100%;
     height: 280px;
-    background: url('../img/Radio.JPG') center / cover;
+    background: url('../img/elementos/Radio.JPG') center / cover;
     background-size: cover;
     background-attachment: local;
 }
@@ -93,57 +117,66 @@
 /* Família 1A */
 
 #spectro {
-    background: url('../img/Hydrogen_Spectra.jpg') center / cover;
+    background: url('../img/elementos/spectrum/Hydrogen_Spectra.jpg') center / cover;
     border-radius: 0px 0px 10px 10px;
 }
 
 #spectro_litio {
-    background: url('../img/litio_spectra.png') center / cover;
+    background: url('../img/elementos/spectrum/litio_spectra.png') center / cover;
     border-radius: 0px 0px 10px 10px;
 }
 
 
 #spectro_sodio {
-    background: url('../img/Sodium_Spectra.jpg') center / cover;
+    background: url('../img/elementos/spectrum/Sodium_Spectra.jpg') center / cover;
     border-radius: 0px 0px 10px 10px;
 }
 
 #spectro_potassio {
-    background: url('../img/Potassium_Spectrum.jpg') center / cover;
+    background: url('../img/elementos/spectrum/Potassium_Spectrum.jpg') center / cover;
     border-radius: 0px 0px 10px 10px;
 }
 
+#spectro_rubidio {
+    background: url('../img/elementos/spectrum/rubidio.gif') center / cover;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#spectro_cesio {
+    background: url('../img/elementos/spectrum/cesio.gif') center / cover;
+    border-radius: 0px 0px 10px 10px;
+}
 
 /* Família 2A */ 
 
 
 #spectro_berilio {
-    background: url('../img/Berilio_Spec.gif') center / cover;
+    background: url('../img/elementos/spectrum/Berilio_Spec.gif') center / cover;
     border-radius: 0px 0px 10px 10px;
 }
 
 #spectro_magnesio {
-    background: url('../img/Magnesio_Spec.gif') center / cover;
+    background: url('../img/elementos/spectrum/Magnesio_Spec.gif') center / cover;
     border-radius: 0px 0px 10px 10px;
 }
 
 #spectro_calcio {
-    background: url('../img/Calcio_Spec.png') center / cover;
+    background: url('../img/elementos/spectrum/Calcio_Spec.png') center / cover;
     border-radius: 0px 0px 10px 10px;
 }
 
 #spectro_estroncio {
-    background: url('../img/Estroncio_Spec.gif') center / cover;
+    background: url('../img/elementos/spectrum/Estroncio_Spec.gif') center / cover;
     border-radius: 0px 0px 10px 10px;
 }
 
 #spectro_bario {
-    background: url('../img/Bario_Spec.gif') center / cover;
+    background: url('../img/elementos/spectrum/Bario_Spec.gif') center / cover;
     border-radius: 0px 0px 10px 10px;
 }
 
 #spectro_radio {
-    background: url('../img/Radio_Spec.gif') center / cover;
+    background: url('../img/elementos/spectrum/Radio_Spec.gif') center / cover;
     border-radius: 0px 0px 10px 10px;
 }
 

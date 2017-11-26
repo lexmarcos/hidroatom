@@ -14,7 +14,8 @@
 
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header is-casting-shadow"><div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button"><img class="material-icons" src="../icons/ic_menu_white_24dp.png" width="24"></div>
+        <header class="mdl-layout__header is-casting-shadow">
+            <div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button"><img class="material-icons" src="../icons/ic_menu_white_24dp.png" width="24"></div>
             <div class="mdl-layout__header-row">
                 <!-- Titulo -->
                 <span class="mdl-layout-title">Hidroatom</span>
@@ -92,7 +93,7 @@
                             <h2 class="mdl-card__title-text">Propriedades Físicas</h2>
                         </div>
                         <div id="card3" class="mdl-card__supporting-text">
-                                                        <div>
+                            <div>
                                 <table>
                                     <tr>
                                         <td>Estado da matéria:</td>
@@ -104,7 +105,7 @@
                                     </tr>
                                     <tr>
                                         <td>Ponto de ebulição:</td>
-                                        <td>    1156 K</td>
+                                        <td>1156 K</td>
                                     </tr>
                                     <tr>
                                         <td>Entalpia de fusão:</td>
@@ -126,7 +127,7 @@
                                         <td>Classe magnética:</td>
                                         <td>paramagnético</td>
                                     </tr>
-                                     <tr>
+                                    <tr>
                                         <td>Susceptibilidade magnética:</td>
                                         <td>8,5x10-6</td>
                                     </tr>
@@ -164,7 +165,18 @@
                                     </tr>
                                     <tr>
                                         <td>Elétrons (por nível de energia):</td>
-                                        <td>2, 8, 1</td>
+                                        <td>2, 8, 1
+                                            <a id="dialogView">Confira a imagem</a>
+                                            <dialog id="dialog1" class="mdl-dialog animated zoomIn">
+                                                <h3 class="mdl-dialog__title">Configuração eletrônica:</h3>
+                                                <div class="mdl-dialog__content">
+                                                    <img src="../img/elementos/config eletro/Sodium.png" width="240">
+                                                </div>
+                                                <div class="mdl-dialog__actions">
+                                                    <button type="button" class="mdl-button">Fechar</button>
+                                                </div>
+                                            </dialog>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>Estado(s) de oxidação:</td>
@@ -218,6 +230,8 @@
             </div>
         </main>
     </div>
+    <script type="text/javascript" src="dialog.js"></script>
+    <script type="text/javascript" src="dialog-polyfill-master/dialog-polyfill.js"></script>
     <script type="text/javascript " src="../MDL/material.min.js "></script>
 </body>
 
