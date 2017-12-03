@@ -10,11 +10,13 @@
     <content src="index.html" />
     <access origin="*" />
     <platform name="android">
-        <icon density="ldpi" src="platforms/browser/res/icon/android/icon-36-ldpi.png" />
-        <icon density="mdpi" src="platforms/browser/res/icon/android/icon-48-mdpi.png" />
-        <icon density="hdpi" src="platforms/browser/res/icon/android/icon-72-hdpi.png" />
-        <icon density="xhdpi" src="platforms/browser/res/icon/android/icon-96-xhdpi.png" />
+        <icon src="icon.png" />
+        <splash src="splash/mdpi.png" qualifier="port-mdpi" density="mdpi" />
+        <splash src="splash/hdpi.png" qualifier="port-hdpi" density="hdpi" />
+        <splash src="splash/xhdpi.png" qualifier="port-xhdpi" density="xhdpi" />
+        <splash src="splash/xxhdpi.png" qualifier="port-xxhdpi" density="xxhdpi" />
+        <splash src="splash/xxxhdpi.png" qualifier="port-xxxhdpi" density="xxxhdpi" />
     </platform>
-    <icon src="platforms/browser/res/icon/android/icon-96-xhdpi.png" />
     <plugin name="cordova-plugin-statusbar" spec="~2.2.3" />
+    <plugin name="cordova-plugin-splashscreen" spec="~4.1.0" />
 </widget>
