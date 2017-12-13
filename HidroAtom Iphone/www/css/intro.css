@@ -1,0 +1,90 @@
+img {
+	display: none;
+}
+
+.image {
+    width: 70%;
+}
+
+.One {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-content: center;
+    height: -webkit-fill-available;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.mdl-layout__content{
+    width: -webkit-fill-available;
+}
+
+.header {
+    background: url('../img/fundo.png') center / cover;
+    margin: 0px;
+    color: white;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    z-index: 2;
+}
+
+.demo-layout-transparent {
+    background: url('../assets/demos/transparent.jpg') center / cover;
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+    color: white;
+}
+
+.demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+    color: white;
+}
+
+.backHeader {
+    background-color: #FFD3A5;
+    height: 20vh;
+}
+
+.imgHeader {
+    width: 130px;
+}
+
+.header p {
+    width: 60%;
+    margin: 0px;
+}
+
+.section_ios {
+    height: 70vh;
+    background-color: white;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.section_ios h4 {
+	width: 70%;
+}
+
+.header img{
+	display: flex;
+}
+
+

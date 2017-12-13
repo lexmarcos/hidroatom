@@ -1,0 +1,167 @@
+/*Imagens dos elementos*/
+
+#elemento2 {
+    background: url('../img/elementos/litio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento3 {
+    background: url('../img/elementos/sodio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento4 {
+    background: url('../img/elementos/Potassium.JPG') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento5 {
+    background: url('../img/elementos/rubidio.JPG') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento6 {
+    background: url('../img/elementos/Cesio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento7 {
+    background: url('../img/elementos/francio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento8 {
+    background: url('../img/elementos/berilio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento9 {
+    background: url('../img/elementos/Magnesium.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento10 {
+    background: url('../img/elementos/Calcio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento11 {
+    background: url('../img/elementos/Estroncio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento12 {
+    background: url('../img/elementos/Bario.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento13 {
+    background: url('../img/elementos/radio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento14 {
+    background: url('../img/elementos/itrio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento15 {
+    background: url('../img/elementos/titanium.JPG') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento16 {
+    background: url('../img/elementos/zicornio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+.demo-card-wide>.mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../img/elementos/hidrogenio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+
+/*Definições da página*/
+
+.demo-card-wide.mdl-card {
+    width: 512px;
+}
+
+.demo-card-wide>.mdl-card__menu {
+    color: #fff;
+}
+
+.demo-card-wide.mdl-card {
+    width: -webkit-fill-available;
+    margin: 10px;
+}
+
+.mdl-layout__header .mdl-layout__drawer-button {
+    background: none;
+}
+
+.mdl-button.mdl-button--colored {
+    background-color: #bc546a;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+i.material-icons {
+    display: none;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-left-button {
+    background-color: #bc546a;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button.is-active {
+    background-color: #bc546a;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button {
+    background-color: #bc546a;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button{
+    background: none;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button.is-active {
+    background: none;
+    display: none;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-left-button.is-active {
+    background: none;
+    display: none;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-left-button {
+    display: none;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button {
+    background: none;
+    display: none;
+}
+
+.animated.fadeInUp.demo-card-wide.mdl-card.mdl-shadow--2dp {
+    border-radius: 8px;
+}

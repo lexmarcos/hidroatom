@@ -1,0 +1,48 @@
+/*Página de seleção dos materiais*/
+
+.demo-card-wide.mdl-card {
+    width: -webkit-fill-available;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.demo-card-wide>.mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../img/Materiais/Hidrocarbonetos.png') center / cover;
+    background-size: cover;
+}
+
+.demo-card-wide>.mdl-card__menu {
+    color: #fff;
+}
+
+#material_modeloAtomico {
+    height: 176px;
+    background: url('../img/Materiais/modelo-cover.png') center / cover;
+    background-size: cover;
+}
+
+#material_acidos{
+	height: 176px;
+    background: url('../img/Materiais/acidos.png') center / cover;
+    background-size: cover;
+}
+
+#material_bases{
+    height: 176px;
+    background: url('../img/Materiais/base.png') center / cover;
+    background-size: cover;
+}
+
+#material_alcool{
+    height: 176px;
+    background: url('../img/Materiais/alcool.png') center / cover;
+    background-size: cover;
+}
+
+#material_cetona{
+    height: 176px;
+    background: url('../img/Materiais/cetona.png') center / cover;
+    background-size: cover;
+}
