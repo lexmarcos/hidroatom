@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.helloworld" version="1.9.5" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Hidroatom</name>
     <description>
-        A blank PhoneGap app.
+        Aplicativo do Projeto Integrador 2017
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
@@ -16,6 +16,7 @@
         <splash src="splash/xhdpi.png" qualifier="port-xhdpi" density="xhdpi" />
         <splash src="splash/xxhdpi.png" qualifier="port-xxhdpi" density="xxhdpi" />
         <splash src="splash/xxxhdpi.png" qualifier="port-xxxhdpi" density="xxxhdpi" />
+        <preference name="StatusBarBackgroundColor" value="#b51349" />
     </platform>
     <plugin name="cordova-plugin-statusbar" spec="~2.2.3" />
     <plugin name="cordova-plugin-splashscreen" spec="~4.1.0" />

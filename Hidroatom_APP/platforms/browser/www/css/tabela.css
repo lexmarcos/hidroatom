@@ -43,7 +43,7 @@
 }
 
 #elemento9 {
-    background: url('../img/elementos/Magnesio.jpg') center / cover;
+    background: url('../img/elementos/Magnesium.jpg') center / cover;
     background-size: cover;
     background-attachment: local;
 }
@@ -67,11 +67,28 @@
 }
 
 #elemento13 {
-    background: url('../img/elementos/Radio.jpg') center / cover;
+    background: url('../img/elementos/radio.jpg') center / cover;
     background-size: cover;
     background-attachment: local;
 }
 
+#elemento14 {
+    background: url('../img/elementos/itrio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento15 {
+    background: url('../img/elementos/titanium.JPG') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento16 {
+    background: url('../img/elementos/zicornio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
 .demo-card-wide>.mdl-card__title {
     color: #fff;
     height: 176px;

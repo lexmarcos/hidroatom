@@ -64,7 +64,7 @@
 #berilioImg {
     width: 100%;
     height: 280px;
-    background: url('../img/elementos/berilio.JPG') center / cover;
+    background: url('../img/elementos/berilio.jpg') center / cover;
     background-size: cover;
     background-attachment: local;
 }
@@ -72,7 +72,7 @@
 #magnesioImg {
     width: 100%;
     height: 280px;
-    background: url('../img/elementos/Magnesio.JPG') center / cover;
+    background: url('../img/elementos/Magnesium.jpg') center / cover;
     background-size: cover;
     background-attachment: local;
 }
@@ -110,6 +110,31 @@
     background-attachment: local;
 }
 
+/* Família 3A */
+
+ #itrioImg {
+    width: 100%;
+    height: 280px;
+    background: url('../img/elementos/itrio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#titanioImg {
+    width: 100%;
+    height: 280px;
+    background: url('../img/elementos/titanium.JPG') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#zirconioImg {
+    width: 100%;
+    height: 280px;
+    background: url('../img/elementos/zicornio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
 
 /* Espectros */
 
@@ -124,29 +149,105 @@
 #spectro_litio {
     background: url('../img/elementos/spectrum/litio_spectra.png') center / cover;
     border-radius: 0px 0px 10px 10px;
+    background-size: cover;
+    background-attachment: local;
 }
 
 
 #spectro_sodio {
     background: url('../img/elementos/spectrum/Sodium_Spectra.jpg') center / cover;
     border-radius: 0px 0px 10px 10px;
+    background-size: cover;
+    background-attachment: local;
 }
 
 #spectro_potassio {
     background: url('../img/elementos/spectrum/Potassium_Spectrum.jpg') center / cover;
     border-radius: 0px 0px 10px 10px;
+    background-size: cover;
+    background-attachment: local;
 }
 
 #spectro_rubidio {
     background: url('../img/elementos/spectrum/rubidio.gif') center / cover;
     border-radius: 0px 0px 10px 10px;
+    background-size: cover;
+    background-attachment: local;
 }
 
 #spectro_cesio {
     background: url('../img/elementos/spectrum/cesio.gif') center / cover;
     border-radius: 0px 0px 10px 10px;
+    background-size: cover;
+    background-attachment: local;
 }
 
+/* Família 2A */
+
+#spectro_berilio {
+    background: url('../img/elementos/spectrum/Berilio_Spec.gif') center / cover;
+    border-radius: 0px 0px 10px 10px;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#spectro_magnesio {
+    background: url('../img/elementos/spectrum/Magnesio_Spec.gif') center / cover;
+    border-radius: 0px 0px 10px 10px;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#spectro_calcio {
+    background: url('../img/elementos/spectrum/Calcio_Spec.png') center / cover;
+    border-radius: 0px 0px 10px 10px;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#spectro_estroncio {
+    background: url('../img/elementos/spectrum/Estroncio_Spec.gif') center / cover;
+    border-radius: 0px 0px 10px 10px;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#spectro_bario {
+    background: url('../img/elementos/spectrum/Bario_Spec.gif') center / cover;
+    border-radius: 0px 0px 10px 10px;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#spectro_radio {
+    background: url('../img/elementos/spectrum/Radio_Spec.gif') center / cover;
+    border-radius: 0px 0px 10px 10px;
+    background-size: cover;
+    background-attachment: local;
+}
+
+/* Família 3A */
+
+#spectro_itrio {
+    background: url('../img/elementos/spectrum/Y.gif') center / cover;
+    border-radius: 0px 0px 10px 10px;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#spectro_titanio {
+    background: url('../img/elementos/spectrum/titanium.gif') center / cover;
+    border-radius: 0px 0px 10px 10px;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#spectro_zirconio {
+    background: url('../img/elementos/spectrum/Zr.gif') center / cover;
+    border-radius: 0px 0px 10px 10px;
+    background-size: cover;
+    background-attachment: local;
+}
 
 /*   ---------------------------------------  */
 
@@ -190,10 +291,6 @@ h2.mdl-card__title-text {
 
 body {
     background-color: #f7f7f7;
-}
-
-.mdl-layout__header-row {
-    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
 }
 
 .mdl-layout__header .mdl-layout__drawer-button {

@@ -29,6 +29,25 @@
     background-size: cover;
 }
 
+#material_bases{
+    height: 176px;
+    background: url('../img/Materiais/base.png') center / cover;
+    background-size: cover;
+}
+
+#material_alcool{
+    height: 176px;
+    background: url('../img/Materiais/alcool.png') center / cover;
+    background-size: cover;
+}
+
+#material_cetona{
+    height: 176px;
+    background: url('../img/Materiais/cetona.png') center / cover;
+    background-size: cover;
+}
+
+
 
 /*Página dos materiais*/
 
@@ -76,21 +95,9 @@
     display: none;
 }
 
-a.mdl-chip.mdl-chip--contact {
-    margin-right: 10px;
+a.mdl-chip {
     background-color: white;
-}
-
-.mdl-color--teal {
-    background-color: lightseagreen !important;
-}
-
-.mdl-layout__header-row {
-    background-color: lightcoral;
-}
-
-.mdl-layout__tab-bar.mdl-js-ripple-effect.is-casting-shadow.mdl-js-ripple-effect--ignore-events {
-	background-color: lightcoral;
+    margin-right: 10px;
 }
 
 .mdl-layout__header .mdl-layout__drawer-button{
