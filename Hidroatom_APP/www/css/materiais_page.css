@@ -1,0 +1,72 @@
+.demo-card-image.mdl-card {
+    width: -webkit-fill-available;
+    height: 500px;
+    background: url('../img/Materiais/hidrocarbonetos-aromaticos.jpg') center / cover;
+    margin: 3%;
+}
+
+.demo-card-image>.mdl-card__actions {
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.demo-card-image__filename {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.texto {
+    text-align: justify;
+}
+
+#card2 {
+    border-radius: 6px;
+    width: -webkit-fill-available;
+    height: auto;
+    margin: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#titulo {
+    align-self: center;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button {
+    display: none;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-left-button {
+    display: none;
+}
+
+a.mdl-chip {
+    background-color: white;
+    margin-right: 10px;
+}
+
+.mdl-layout__header .mdl-layout__drawer-button{
+	background: none;
+}
+
+h2.mdl-card__title-text {
+    font-size: xx-large;
+}
+
+hr {
+    width: 50%;
+}
+
+img.texto {
+    width: 100%;
+}
+
+img.textImg {
+    width: 105%;
+}
+
+body {
+    background-color: #f7f7f7;
+}
