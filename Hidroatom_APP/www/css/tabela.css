@@ -89,6 +89,102 @@
     background-size: cover;
     background-attachment: local;
 }
+
+#elemento17 {
+    background: url('../img/elementos/boro.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento18 {
+    background: url('../img/elementos/aluminio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento19 {
+    background: url('../img/elementos/carbono.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento20 {
+    background: url('../img/elementos/silicio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento21 {
+    background: url('../img/elementos/nitrogenio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento22 {
+    background: url('../img/elementos/fosforo.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento23 {
+    background: url('../img/elementos/oxigenio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento24 {
+    background: url('../img/elementos/enxofre.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento25 {
+    background: url('../img/elementos/fluor.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento26 {
+    background: url('../img/elementos/cloro.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento27 {
+    background: url('../img/elementos/helio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento28 {
+    background: url('../img/elementos/escandio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento29 {
+    background: url('../img/elementos/ferro.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento30 {
+    background: url('../img/elementos/manganes.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento31 {
+    background: url('../img/elementos/cromio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
+
+#elemento32 {
+    background: url('../img/elementos/vanadio.jpg') center / cover;
+    background-size: cover;
+    background-attachment: local;
+}
 .demo-card-wide>.mdl-card__title {
     color: #fff;
     height: 176px;
