@@ -1,12 +1,14 @@
-O processo de criaÁ„o e confecÁ„o de uma ideia exige que se pense nos objetivos finais,
-ou seja, o propÛsito da sua criaÁ„o. Em nosso projeto, tÌnhamos a ideia de desenvolver
-um interface visual capaz de interagir com dois tipos de usu·rios: Alunos e professores.
-NÛs estudamos e revemos as possibilidades e concluÌmos que essa interaÁ„o alternativa ficaria
-fora de quest„o, uma vez que o aplicativo em si j· demanda muito trabalho. Acreditamos que em 
-todos os projetos existem as ideias que s„o descartadas, e que esse processo faz parte de um processo 
-de aprendizagem no qual em futuros trabalhos e projetos ir· nos auxiliar. A maioria das funÁıes foi 
-mantida ou apenas levemente modificada com exceÁ„o da interface de login. Outra raz„o que optamos pela 
-exclus„o dessa ideia foi o fato de que n„o seria algo vi·vel, uma vez que o nosso aplicativo iria exigir 
-uma interface totalmente reformulada para os professores, com novas funÁıes e aspectos para um pequeno 
-n˙mero de usu·rios(professores). Os softwares utilizados atÈ agora foram: Android Studio, Photoshop para
-as ediÁıes de imagem e o Star UML para a organizaÁ„o dos diagramas de classe.
+O processo de cria√ß√£o e confec√ß√£o de uma ideia exige que se pense nos objetivos finais,
+ou seja, o prop√≥sito da sua cria√ß√£o. Em nosso projeto, t√≠nhamos a ideia de desenvolver
+um interface visual capaz de interagir com dois tipos de usu√°rios: Alunos e professores.
+N√≥s estudamos e revemos as possibilidades e conclu√≠mos que essa intera√ß√£o alternativa ficaria
+fora de quest√£o, uma vez que o aplicativo em si j√° demanda muito trabalho. Acreditamos que em 
+todos os projetos existem as ideias que s√£o descartadas, e que esse processo faz parte de um processo 
+de aprendizagem no qual em futuros trabalhos e projetos ir√° nos auxiliar. A maioria das fun√ß√µes foram 
+mantidas ou apenas parcialmente modificadas, com exce√ß√£o da interface de login. 
+
+
+Outra raz√£o que optamos pela exclus√£o dessa ideia foi o fato de que n√£o seria algo vi√°vel, 
+uma vez que o nosso aplicativo iria exigir uma interface totalmente reformulada para os professores, 
+com novas fun√ß√µes e aspectos para um pequeno n√∫mero de usu√°rios(professores). 
+Os softwares utilizados at√© agora foram: Android Studio, Photoshop para as edi√ß√µes de imagem e o Star UML para a organiza√ß√£o dos diagramas de classe.
